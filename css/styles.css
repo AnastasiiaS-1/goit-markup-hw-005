@@ -1,0 +1,242 @@
+:root {
+    --background-color: #FCFCFC;
+    --main-text-color: #2E2F42;
+    --text-color: #434455;
+    --secondary-color: #2E2F42;
+    --primary-background-color:#F4F4FD;
+    --image-background-color: #FFFFFF;
+    --accent-color: #4D5AE5;
+}
+
+body {
+    color: var(--background-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+/*-------LOGO----------*/
+
+.logo {
+    color: var(--secondary-color);
+}
+
+.accent {
+    color:var(--accent-color);
+}
+
+
+.logo,
+.accent {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.logo-logo {
+    color:var(--primary-background-color);
+}
+
+.logo-logo,
+.accent {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/*------HEADER-------*/
+
+.header-link:hover, 
+.header-link:focus {
+    color:#404BBF
+}
+
+.header-link {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.header-address-link:hover, 
+.header-address-link:focus {
+    color:#404BBF
+}
+
+.header-address-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+/*--------HERO---------*/
+
+.hero {
+    background-color: var(--secondary-color)
+}
+
+.hero-name {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/*------Header-Button------*/
+
+
+.header-button:hover,
+.header-button:focus {
+    background: :#4D5AE5;
+}
+
+.header-button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;  
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color:#4D5AE5;
+    cursor: pointer;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+/*----Section-Features------*/
+
+.section-features {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+/*----------Section-Team---------*/
+
+.section-team {
+    background-color: var(--primary-background-color)
+}
+
+.image {
+    background-color:var(--image-background-color);
+}
+
+.section-team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.section-team-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+
+/*-------PORTFOLIO--------*/
+
+
+/*---------Section-Projects-------*/
+
+.project-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
+.project-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+}
+
+.button-list {
+    
+}
+
+.button-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+
+
+/*----FOOTER----*/
+
+.footer {
+    background-color: var(--secondary-color)
+}
