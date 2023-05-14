@@ -2,7 +2,6 @@
   --page-background-color: #ffffff;
   --text-color: #434455;
   --main-text-color: #2e2f42;
-  --secondary-color: #2e2f42;
   --primary-background-color: #f4f4fd;
   --accent-color: #4d5ae5;
   --accent-dark-color: #404bbf;
@@ -30,7 +29,7 @@ body {
 }
 
 .accent {
-  color: var(--secondary-color);
+  color: var(--main-text-color);
 }
 
 .logo,
@@ -63,7 +62,7 @@ body {
   text-transform: uppercase;
 }
 
-.address {
+.header-address {
   font-style: normal;
 }
 
@@ -100,7 +99,7 @@ body {
 /*--------HERO---------*/
 
 .hero {
-  background-color: var(--secondary-color);
+  background-color: var(--main-text-color);
 }
 
 .hero-name {
@@ -120,7 +119,7 @@ body {
 }
 
 .header-button {
-  font-family: "Roboto" sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -174,7 +173,7 @@ body {
 }
 
 .image {
-  background-color: var(--image-background-color);
+  background-color: var(--page-background-color);
 }
 
 .section-team-features {
@@ -214,10 +213,6 @@ body {
 }
 
 /*-------PORTFOLIO--------*/
-
-.gallery-item {
-  text-decoration: none;
-}
 
 .project-name {
   font-weight: 500;
@@ -272,5 +267,5 @@ body {
 /*----FOOTER----*/
 
 .footer {
-  background-color: var(--secondary-color);
+  background-color: var(--main-text-color);
 }
